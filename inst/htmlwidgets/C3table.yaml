@@ -1,0 +1,7 @@
+# (uncomment to add a dependency)
+ dependencies:
+  - name: tableCSS
+    version: 0.0.1
+    src: htmlwidgets
+#    script:
+    stylesheet: ./lib/table.css
