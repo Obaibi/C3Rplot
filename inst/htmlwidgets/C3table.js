@@ -62,9 +62,11 @@ HTMLWidgets.widget({
         GeneralTitle.innerText = x.title;
         GeneralTitle.style.textAlign = "center";
 
+
         /* Appending all the elements in the div */
-        if(el.childNodes.length > 0){ for(i=0;i<el.childNodes.length;i++){
-        																		el.childNodes[i].remove();
+        if(el.childNodes.length > 0){ 
+        							for(i=0;i<=el.childNodes.length;i++){
+        																		el.childNodes[0].remove();
         																} 
         															}
         if(x.position == "top"){el.appendChild(GeneralTitle);}
